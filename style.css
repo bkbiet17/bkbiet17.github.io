@@ -1,0 +1,91 @@
+.body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+/*  Navbar */
+
+.nav-bar{
+	top: 0;
+	position: sticky;
+	z-index: 2;
+}
+
+.navbar{
+	background-color: #000;
+}
+ 
+.navbar-brand img{
+	height: 35px;
+}
+
+.fa-bars{
+	font-size: 35px;
+	color: #fff;
+}
+
+.navbar-toggler{
+	outline: none !important;
+}
+
+.navbar-nav{
+	float: right;
+	text-align: right;
+} 
+
+.nav-link{
+	color: #fff !important;
+}
+
+/* Home Page */
+
+.Home{
+	background-image: url(img/bg.jpg);
+	background-position: center;									
+	background-size: cover;
+	background-attachment: fixed;
+    padding-top: 20%;
+    padding-bottom: 30%;
+}
+
+.Home h1{
+    text-align: center;
+	color: white;
+}
+
+.Home h2{
+	color: black;
+	text-align: center;
+	
+}
+
+/*	Body  */
+
+h3{
+	padding-bottom: 10px;
+    color: white;
+	background-color: black;
+}
+
+.CS,.EE,.ME{
+	background-image: url(img/bg2.jpg);
+	width: 100%;											
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 60px;
+	/*padding-bottom: 60px;*/
+}
+
+h4{
+	color:grey;
+}
+
+.row ul li{
+	list-style-type: none;
+}
+
+.row a{
+	color: ivory;
+	text-decoration: none;
+}
