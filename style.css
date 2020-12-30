@@ -41,10 +41,9 @@
 /* Home Page */
 
 .Home{
-	background-image: url(img/bg.jpg);
-	background-position: center;									
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.6)),url(img/bg.jpg);
 	background-size: cover;
-	background-attachment: fixed;
+	background-position: center;
     padding-top: 20%;
     padding-bottom: 30%;
 }
@@ -69,12 +68,10 @@ h3{
 }
 
 .CS,.EE,.ME{
-	background-image: url(img/bg2.jpg);
-	width: 100%;											
+	background-image: url(img/bg2.jpg);										
 	background-size: cover;
 	background-attachment: fixed;
 	padding-top: 60px;
-	/*padding-bottom: 60px;*/
 }
 
 h4{
